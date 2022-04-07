@@ -1,6 +1,12 @@
 name = "inverse-folding"
-[compat]
-julia = "1.7.2"
-DrWatson = "2.9.1"
+
 [deps]
+Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+ViennaRNA = "05a721ad-238d-4945-8c85-8b5c1fff3465"
+
+[compat]
+DrWatson = "2.9.1"
+julia = "1.7.2"
